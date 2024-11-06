@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Anggota Perpustakaan</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Anggota Perpustakaan</h2>
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="ketikan nama kamu">
+            
+            <label for="kota_lahir">Kota Lahir</label>
+            <input type="text" id="kota_lahir" name="kota_lahir" placeholder="ketikan dan/atau pilih nama kota lahir kamu">
+            
+            <label for="tanggal_lahir">Tanggal Lahir</label>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" placeholder="mm/dd/yyyy">
+
+            <label>Gender</label>
+            <input type="radio" id="pria" name="gender" value="pria">
+            <label for="pria" style="display: inline;">Pria</label>
+            <input type="radio" id="wanita" name="gender" value="wanita">
+            <label for="wanita" style="display: inline;">Wanita</label>
+
+            <label for="no_telepon">No Telepon</label>
+            <input type="text" id="no_telepon" name="no_telepon" placeholder="ketikan no telepon kamu">
+            
+            <label>Makanan Favorit</label>
+            <input type="checkbox" id="nasi_goreng" name="makanan_favorit" value="nasi_goreng">
+            <label for="nasi_goreng" style="display: inline;">Nasi goreng</label>
+            <input type="checkbox" id="mie_goreng" name="makanan_favorit" value="mie_goreng">
+            <label for="mie_goreng" style="display: inline;">Mie goreng</label>
+
+            <label for="agama">Agama</label>
+            <select id="agama" name="agama">
+                <option value="">Pilih</option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+
+            <div class="buttons">
+                <input type="reset" value="Clear">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+</body>
+</html>

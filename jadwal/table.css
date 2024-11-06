@@ -1,0 +1,32 @@
+body {
+    background-image: url('totoro.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px dashed white;
+    border-radius: 15px;
+    background-color: rgba(166, 191, 245, 0.8);
+    color: white;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background-color: rgba(9, 75, 93, 0.9);
+}
+.highlight {
+    background-color: rgb(152, 202, 222);
+}
+tr:hover{
+    background:gray ;
+}
